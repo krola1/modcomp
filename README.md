@@ -1,23 +1,34 @@
 # modComp
 
-Et lite script for å lage mappestruktur med jsx og modulcss, kjør enten som script på din maskin eller via npx.
+Et lite script for å lage mappestruktur med JSX og modul CSS. Kjør enten som script på din maskin eller via npx.
 
-Bruk: sørg for at du er i rootmappen av react prosjektet, skriv modcomp etterfulgt av navn på en eller flere komponenter. 
+## Bruk
 
-ie: "modcomp List Card Form"
+Sørg for at du er i rotmappen av React-prosjektet, skriv `modcomp` etterfulgt av navn på en eller flere komponenter.
 
-da genereres det for hver av komponentene, en folder, en jsx fil med komponeten, en modulue css som hører til og en index.jsx for exportering
+**Eksempel:**
+```bash
+modcomp List Card Form
+```
 
-alle linkes sammen med imports/exports og fylles med en standard template. hvis du cloner prosjektet eller laster end lokalt kan du endre templatene til ditt brukn i filen templates.js
+Dette genererer for hver komponent:
+- En mappe
+- En JSX-fil med komponenten
+- En modul CSS-fil
+- En `index.js` for eksportering
 
+Alle filer lenkes sammen med imports/exports og fylles med en standardmal. Hvis du kloner prosjektet eller laster det ned lokalt, kan du endre malene etter dine behov i filen `templates.js`.
 
+## Installasjon og kjøring
 
-## Kjør via npx
+### Via npx
 
-Du kan kjøre prosjektet via nxp med:
+Du kan kjøre prosjektet via npx med:
 
 ```bash
 npx --allow-git=all github:krola1/modcomp <komponentnavn>
 ```
 
-Mer innhold kommer snart.
+---
+
+*Readme laget med Copilot*
