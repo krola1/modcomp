@@ -4,7 +4,8 @@ Et lite script for å lage mappestruktur med JSX og modul CSS. Kjør enten som s
 
 ## Bruk
 
-Sørg for at du er i rotmappen av React-prosjektet, skriv `modcomp` etterfulgt av navn på en eller flere komponenter.
+Sørg for at du er i rotmappen av React-prosjektet, skriv `modcomp` etterfulgt av navn på en eller flere komponenter. VIKTIG: Ikke bruk noen filendendelse (ie .jsx) i komponentnavn. sciptet ordner dette der det trengs, men fjerner ikke duplikat hvis bruker gjør det manuelt i tillegg. 
+Planlegger å legge dette til i fremtiden.
 
 **Eksempel:**
 ```bash
@@ -24,6 +25,8 @@ Alle filer lenkes sammen med imports/exports og fylles med en standardmal. Hvis 
 ### Via npx
 
 Du kan kjøre prosjektet via npx med:
+
+npx modcomp <komponentnavn>
 
 ```bash
 npx --allow-git=all github:krola1/modcomp <komponentnavn>
