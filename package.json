@@ -1,6 +1,34 @@
 {
   "name": "modcomp",
   "version": "1.0.0",
+  "description": "CLI-verktøy for å scaffolde React-komponenter",
   "type": "module",
-  "bin": { "modcomp": "./main.js" }
+  "bin": {
+    "modcomp": "./main.js"
+  },
+  "files": [
+    "main.js",
+    "templates.js",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "cli",
+    "scaffold",
+    "component",
+    "generator"
+  ],
+  "author": "Lars",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krola1/modcomp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krola1/modcomp/issues"
+  },
+  "homepage": "https://github.com/krola1/modcomp#readme",
+  "engines": {
+    "node": ">=18"
+  }
 }
